@@ -6,10 +6,10 @@
 // (without the extension, which, however, should be .txt !)
 ////////////////////////////////////////////////////////////////////////////
 
-//std::string CompOSE_EOS_data_basic = "../results/DNS(CMF)_cold_neutron_stars";
-//std::string CompOSE_EOS_data_basic = "../results/SLy2_CompOSE_e,mu";
-//std::string CompOSE_EOS_data_basic = "../results/GMSR(H2)_CompOSE_e,mu";
-std::string basic_data_file_address = "../results/DNS(CMF)_hadronic_with_electrons";
+std::string basic_data_file_address = "../results/DNS(CMF)_cold_neutron_stars";
+//std::string basic_data_file_address = "../results/SLy2_CompOSE_e,mu";
+//std::string Casic_data_file_address = "../results/GMSR(H2)_CompOSE_e,mu";
+//std::string basic_data_file_address = "../results/DNS(CMF)_hadronic_with_electrons";
 
 
 ////////////////////////////////////////////////////////////////////////////////
@@ -37,7 +37,7 @@ const bool subtract_leptons = true;
 
 // Decide whether to use YQ from an expansion using the symmetry energy;
 // better to use the proton fraction provided from CompOSE
-const bool use_charge_fraction_expansion = true;
-//const bool use_charge_fraction_expansion = false;
+//const bool use_charge_fraction_expansion = true;
+const bool use_charge_fraction_expansion = false;
 
 #endif // CONFIG_H_
