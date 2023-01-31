@@ -6,7 +6,8 @@
 // (without the extension, which, however, should be .txt !)
 ////////////////////////////////////////////////////////////////////////////
 
-std::string basic_data_file_address = "../results/DNS(CMF)_cold_neutron_stars";
+//std::string basic_data_file_address = "../results/DNS(CMF)_cold_neutron_stars";
+std::string basic_data_file_address = "../results/DNS(CMF)_hadronic_no_electrons_Yq=0";
 //std::string basic_data_file_address = "../results/SLy2_CompOSE_e,mu";
 //std::string Casic_data_file_address = "../results/GMSR(H2)_CompOSE_e,mu";
 //std::string basic_data_file_address = "../results/DNS(CMF)_hadronic_with_electrons";

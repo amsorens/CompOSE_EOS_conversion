@@ -6,7 +6,7 @@
 
 #include "./include/config.h"
 #include "./include/constants.h"
-#include "./include/conversion_functions_copy.h"
+#include "./include/conversion_functions.h"
 
 #include "./include/reading_functions.h"
 
