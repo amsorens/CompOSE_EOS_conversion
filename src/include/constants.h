@@ -1,0 +1,13 @@
+#ifndef CONSTANTS_H_
+#define CONSTANTS_H_
+
+////////////////////////////////////////////////////////////////////////////////
+// constants
+////////////////////////////////////////////////////////////////////////////////
+const double hbarc = 197.326980;
+const double electron_mass = 0.51099895000; // MeV
+const double muon_mass = 105.6583745;       // MeV
+
+const double lepton_degeneracy = 2.0;
+
+#endif // CONSTANTS_H_

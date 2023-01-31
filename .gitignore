@@ -1,0 +1,7 @@
+#OS junk files
+*.DS_Store
+
+# build and results folders
+[Bb]uild/
+[Rr]esults
+
